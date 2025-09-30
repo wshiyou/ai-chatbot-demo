@@ -42,3 +42,38 @@ Open / ブラウザでアクセス 👉 http://localhost:8000
 License / ライセンス
 
 MIT
+
+
+## Screenshots / スクリーンショット
+### 1. Initial Screen / 起動画面
+
+<img width="1103" height="1033" alt="スクリーンショット 2025-09-30 14 57 04" src="https://github.com/user-attachments/assets/ed658766-e10d-42f0-846a-e70960059352" />
+When you open the app, you see a clean chat interface where you can immediately start interacting with the bot.  
+アプリを起動すると、シンプルなチャット画面が表示され、すぐにボットとの会話を開始できます。
+
+### 2. Chatting Example / チャット例
+
+<img width="1196" height="977" alt="スクリーンショット 2025-09-30 15 12 38" src="https://github.com/user-attachments/assets/ef6542cc-72f3-4559-aa8a-40ab459edf89" />
+
+The user can type a message and the bot responds with context.  
+ユーザーがメッセージを入力すると、ボットが文脈に基づいて応答します。
+
+### 3. Dark Mode / ダークモード
+
+<img width="1055" height="1007" alt="スクリーンショット 2025-09-30 15 13 29" src="https://github.com/user-attachments/assets/7dd388d4-e303-4a5e-8dee-545e8abfd3dc" />
+
+Users can toggle between light and dark themes for better usability.  
+ユーザーはライトモードとダークモードを切り替えて、使いやすさを向上させることができます。
+
+
+
+
+
+
+
+
+
+
+
+
+
