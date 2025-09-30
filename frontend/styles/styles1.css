@@ -1,0 +1,136 @@
+:root {
+    --bg-color: #f6f7fb;
+    --chat-bg: rgba(213, 234, 219, 0.654);
+  
+    --user-bubble-bg: #4a90e2;
+    --user-text: #fff;
+    --user-avatar-border: #4a90e2;
+  
+    --bot-bubble-bg: #51e867;
+    --bot-text: #000;
+    --bot-avatar-border: #4ae25c;
+    --title--text:#000;
+    --send-btn-bg: #111;
+    --send-btn-text: #fff;
+  }
+
+
+
+
+
+
+/* 全体のデザイン設定 */
+body { 
+    font-family: sans-serif; 
+    background: var(--bg-color);
+  }
+  .container { 
+    max-width: 800px; 
+    margin: 40px auto; 
+    padding: 16px; 
+  }
+  .title { 
+    margin-bottom: 16px; 
+    color:var(--title--text);
+  }
+  
+  /* チャット表示エリア */
+  .chat-window {
+    background: var(--chat-bg);
+    border: 1px solid #ccc;
+    border-radius: 12px;
+    padding: 12px;
+    height: 60vh;
+    overflow: auto;
+  }
+  
+  /* ===== メッセージのデザイン（改造版） ===== */
+  
+  /* 共通 */
+  .msg {
+    display: flex;
+    align-items: flex-end;
+    margin: 6px 0;
+  }
+  
+  /* ユーザー（右側） */
+  .msg.user {
+    justify-content: flex-end;
+  }
+  .msg.user .bubble {
+    background: var(--user-bubble-bg);
+    color: var(--user-text);
+    padding: 8px 12px;
+    border-radius: 12px;
+    max-width: 70%;
+    line-height: 1.4;
+    margin-right: 6px;
+  }
+  .msg.user .avatar {
+    width: 48px;
+    height: 48px;
+    border-radius: 50%;
+    border: 2px solid #4a90e2;
+    background: #fff;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.2);
+  }
+  
+  /* Bot（左側） */
+  .msg.bot {
+    justify-content: flex-start;
+  }
+  .msg.bot .bubble {
+    background: #51e867;
+    padding: 8px 12px;
+    border-radius: 12px;
+    max-width: 70%;
+    line-height: 1.4;
+    margin-left: 6px;
+  }
+  .msg.bot .avatar {
+    width: 48px;
+    height: 48px;
+    border-radius: 50%;
+    border: 2px solid #4ae25c;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.2);
+  }
+  
+  /* ===== 入力欄と送信ボタン ===== */
+  .input-row { 
+    display: grid; 
+    grid-template-columns: 1fr auto; 
+    gap: 8px; 
+    margin-top: 12px; 
+  }
+  #input { 
+    padding: 8px; 
+    border-radius: 8px; 
+    border: 1px solid #ccc; 
+  }
+  #send { 
+    padding: 8px 12px; 
+    border-radius: 8px; 
+    border: none; 
+    background: #111; 
+    color: #fff; 
+  }
+  
+
+
+
+  body.dark {
+    --bg-color: #1e1e1e;
+    --chat-bg: rgba(40, 40, 40, 0.9);
+  
+    --user-bubble-bg: #007acc;
+    --user-text: #fff;
+    --user-avatar-border: #007acc;
+  
+    --bot-bubble-bg: #2d882d;
+    --bot-text: #f5f5f5;
+    --bot-avatar-border: #2d882d;
+  
+    --send-btn-bg: #444;
+    --send-btn-text: #fff;
+    --title--text:#dbcfcf;
+  }

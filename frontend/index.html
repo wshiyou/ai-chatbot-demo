@@ -1,0 +1,23 @@
+<!doctype html>
+<html lang="ja">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Chatbot Demo</title>
+    <!-- 静的ファイルは /static 配下にある -->
+    <link rel="stylesheet" href="/static/styles/styles1.css" />
+  </head>
+  <body>
+    <main class="container">
+      <h1 class="title">Chatbot Demo</h1>
+      <div id="chat" class="chat-window"></div>
+      <div class="input-row">
+        <textarea id="input" rows="2" placeholder="メッセージを入力…（Enter送信 / Shift+Enterで改行）"></textarea>
+        <button id="send">送信</button>
+      </div>
+    </main>
+    <!-- scripts も /static 配下。Cookieでsid固定するので必ず同源(8000)で開く -->
+    <script src="/static/scripts/chat1.js" defer></script>
+  </body>
+</html>
+
